@@ -95,23 +95,31 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   justify-content: space-between;
   gap: 10px;
 }
 .carte_choix_inside_Y {
-  border: 1px black solid;
+  border: 1px violet solid;
   border-radius: 10px;
   width: 345px;
   height: 260px;
   display: flex;
   column-gap: 20px;
 }
+.carte_choix_inside_Y h4{
+  color: blueviolet;
+}
 
-.carte_choix_inside_Y p,
+.DESCRIPTION_carte_y{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+/* .carte_choix_inside_Y p,
 h4 {
   margin-top: 40px;
-}
+} */
 .img_carte_y img {
   width: 94px;
   height: 256px;
@@ -123,6 +131,18 @@ h4 {
 .title_choise_y p {
   justify-self: center;
   font-weight: 500;
+}
+ .btn_carte_y button{
+  border: 1px violet;
+ background-color: violet;
+  color: black;
+  border-radius: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+ }
+ .title_choise_y{
+  margin-bottom: 40px;
+ 
 }
 
 @media (min-width: 1024px) {
@@ -180,7 +200,9 @@ h4 {
     font-weight: 300;
     font-size: 15px;
   }
-
+  .title_choise_y{
+    margin-bottom: 40px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
     .hero_section_Y{
@@ -207,4 +229,29 @@ h4 {
     .hero_section_Y p{
       font-size: larger;
     }
+    
+  .container_carte_y {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+    justify-content: space-evenly;
   }
+  .title_choise_y{
+    margin-bottom: 40px;
+   
+  }
+  .title_choise_y h2{
+ font-size: 30px;
+  }
+  .title_choise_y p{
+    font-size: 20px;
+     }
+
+   .title_carte_y{
+ font-size: 15px;
+   }
+  .para_carte_y{
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
