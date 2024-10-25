@@ -514,7 +514,7 @@ nav .logo{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width:100%;
-        border-style: solid;
+        
     
     }
     .statistique4,.statistique3,.statistique2,.statistique1{
@@ -523,5 +523,78 @@ nav .logo{
         width: 96%; 
         margin: auto;
         
+    }
+}
+
+
+
+/*section car*/
+
+
+
+.aside1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.aside1 img{
+    height: 18rem;
+    width: 18rem;
+}
+.aside1 p{
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.image img{
+    width: 100%;
+}
+
+.aside2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.aside2 p{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.aside2 img{
+    height: 18rem;
+    width: 18rem;
+}
+
+
+@media (min-width: 905px){
+    .aside-parte{
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .aside1{
+        display: grid;
+        
+    }
+ 
+
+    .aside2{
+        display: grid;
+        justify-content: flex-end;
+        
+    }
+
+    .aside2 img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .aside1 img{
+        height: 30rem;
+        width: 30rem;
     }
 }
