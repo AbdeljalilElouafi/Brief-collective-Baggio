@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" aria-label="state" href="/assets/sign_in.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./assets/style.css">
     <title>Baggio</title>
 </head>
+
 <body>
+
+    
 
 
 
@@ -42,16 +47,32 @@
     </header>
     
     
-    <section id="news">
-        <h2>Découvrez nos dernières nouveautés et restez informé des événements à venir :</h2>
-        <div class="trending">
-            <h3>Trending</h3>
-            <ul>
-                <li><a href="#">Apprendre à gérer son propre site web</a></li>
-                <li><a href="#">Trafic site Web : anticiper les pics de trafic</a></li>
-            </ul>
-        </div>
-    </section>
+    <section >
+        <div class="container-Sign-in">
+           <div class="backgrond-sign-in">
+               <div class="title-sign-in">
+                   <h1>Connectez-vous à votre compte</h1>
+                   <p>Accédez à toutes vos fonctionnalités et services en quelques clics. Entrez vos
+                       informations ci-dessous pour continuer</p>
+               </div>
+           </div>
+           <div class="box-sign-in">
+               <h2>Sign in</h2>
+               <button><img src="assets/google.png" alt="google">Continue with google</button>
+               <hr>
+               <span>OR</span>
+               <form class="formulaire-sign">
+                   <label for="email">User name or email</label>
+                   <input type="text" id="email" name="email" >
+                   <label for="password">Your password</label>
+                   <input type="password" id="password" name="password" >
+                   <input type="submit" value="Sign Up">
+                   <p>Don’t have an acount?<a href="#">Sign up </a></p>
+               </form>
+           </div>
+       </div>
+   
+       </section>
     
     
         <footer class="footer">
@@ -117,4 +138,5 @@
         </footer>
     
 </body>
+
 </html>
