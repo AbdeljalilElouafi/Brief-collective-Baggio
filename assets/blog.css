@@ -10,6 +10,7 @@ html {
   font-size: 10px;
 } 
  /*  media query pour les telephone */
+           /* hero section css start */
 .container_Y {
   display: flex;
   justify-content: center;
@@ -36,6 +37,9 @@ html {
   color: white;
   top: 35%;
 }
+       /* hero section css start */
+
+       /* css equipe start */
 .title_member_y h2 {
   justify-self: center;
   margin-top: 100px;
@@ -91,7 +95,8 @@ html {
 .element_y:hover .description_member_y {
     opacity: 1;
 }
-
+        /* css equipe end */
+        /* css carte de choix start */
 .container_carte_y {
   display: flex;
   align-items: center;
@@ -148,11 +153,12 @@ h4 {
 .carte_choix_Y{
   margin-bottom: 50px;
 }
-
+          /* css carte de choix end */
          
    /* media query pour les desktop  */
 
 @media (min-width: 1024px) {
+             /* media query pour les desktop hero section start */
   .hero_section_Y {
     position: relative;
     width: 94%;
@@ -174,9 +180,14 @@ h4 {
     width: 451px;
     height: 293px;
   }
+             /* media query pour les desktop hero section end  */
+
+              /* media query pour les desktop equipe css start */
+
   .title_member_y {
     justify-self: center;
     margin-top: 20px;
+    /* font-size: 10px; */
   }
   .description_member_y {
     width: 100%;
@@ -189,7 +200,9 @@ h4 {
     flex-direction: row;
     margin-bottom: 70px;
   }
+           /* media query pour les desktop equipe css end  */
 
+            /* media query pour les desktop choux start */
   .container_carte_y {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -213,9 +226,11 @@ h4 {
   .carte_choix_Y{
     margin-bottom: 50px;
   }
+           /* media query pour les desktop choix end  */
 }
            /*  media query pour les tabletes */
 @media (min-width: 768px) and (max-width: 1023px) {
+           /*  media query pour les tabletes hero section start */
     .hero_section_Y{
       position: relative;
       background-image: url(image\ hero\ section.png);
@@ -239,7 +254,10 @@ h4 {
     }
     .hero_section_Y p{
       font-size: larger;
-    }
+    } 
+     /*  media query pour les tabletes hero section end */
+
+      /*  media query pour les tabletes choix start */
     
   .container_carte_y {
     display: grid;
@@ -261,14 +279,27 @@ h4 {
    .title_carte_y{
  font-size: 15px;
    }
-  .para_carte_y{
-    font-size: 10px;
-    font-weight: 600;
+  .para_carte_y p{
+    font-size: 12px;
+    font-weight: 400;
   }
   .carte_choix_Y{
     margin-bottom: 50px;
-  }
+  } 
+ 
+
+   /*  media query pour les tabletes choix end */
+
+
+    /*  media query pour les tabletes equipe start */
   .description_member_y{
     font-size: 20px;
   }
+  .title_member_y h2{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+ 
+   /*  media query pour les tabletes equipe end */
 }

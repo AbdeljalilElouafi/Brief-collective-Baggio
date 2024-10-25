@@ -79,6 +79,7 @@ nav .logo{
     background-color: #D9D9D9;
     border-radius: 2rem;
     padding: 2.5rem;
+    background-size: cover ;
 
 }
 
@@ -338,5 +339,264 @@ nav .logo{
     
 }
 
+}
+/*section statistique*/
 
+
+.statistique1{
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    margin-left: 3rem;
+    background-color: #ECECEC;
+    border-radius: 4.5rem;
+    margin-bottom:2rem ;
+    
+}
+.statistique1 img{
+    height: 15rem;
+    width: 15rem;
+    border-style: none;
+    border-radius: 50%;
+    margin: 2rem;
+    background-color: #D9D9D9;
+}
+
+.tittle{
+    margin-left: 2rem;
+}
+.statistique1 h3{
+    font-size: 6rem;
+    text-align: center;
+    color: #FF6100;
+}
+.statistique1 p{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.statistique2{
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-style: solid;
+    margin-left: 3rem;
+    background-color: #ECECEC;
+    border-radius: 4.5rem;
+    margin-bottom:2rem ;
+    
+}
+.statistique2 img{
+    height: 15rem;
+    width: 15rem;
+    border-style: none;
+    border-radius: 50%;
+    margin: 2rem;
+    background-color: #D9D9D9;
+}
+
+.tittle{
+    margin-left: 2rem;
+}
+.statistique2 h3{
+    font-size: 6rem;
+    text-align: center;
+    color: #FF6100;
+}
+.statistique2 p{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.window{
+    margin-right: 2rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin:2rem ;
+
+}
+
+
+.statistique3{
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    margin-left: 3rem;
+    background-color: #ECECEC;
+    border-radius: 4.5rem;
+    margin-bottom:2rem ;
+    
+}
+
+
+.statistique3 img{
+    height: 8rem;
+    width: 8rem;
+    margin: 3rem;
+}
+
+.tittle{
+    margin-left: 2rem;
+}
+.statistique3 h3{
+    font-size: 6rem;
+    text-align: center;
+    color: #FF6100;
+}
+.statistique3 p{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+
+.statistique3{
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    margin-left: 3rem;
+    background-color: #ECECEC;
+    border-radius: 4.5rem;
+    margin-bottom:2rem ;
+    
+}
+
+
+.statistique4{
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-style: solid;
+    margin-left: 3rem;
+    background-color: #ECECEC;
+    border-radius: 4.5rem;
+    margin-bottom:2rem ;
+    
+}
+.statistique4 img{
+    height: 15rem;
+    width: 15rem;
+    border-style: none;
+    border-radius: 50%;
+    margin: 2rem;
+    background-color: #D9D9D9;
+}
+
+.tittle{
+    margin-left: 2rem;
+}
+.statistique4 h3{
+    font-size: 6rem;
+    text-align: center;
+    color: #FF6100;
+}
+.statistique4 p{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+
+@media (min-width: 905px) and (max-width: 1024px){
+    .statistique-h{
+       display: flex;
+
+    }
+}
+
+@media (min-width: 905px){
+    .statistique-h{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width:100%;
+        
+    
+    }
+    .statistique4,.statistique3,.statistique2,.statistique1{
+        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 96%; 
+        margin: auto;
+        
+    }
+}
+
+
+
+/*section car*/
+
+
+
+.aside1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.aside1 img{
+    height: 18rem;
+    width: 18rem;
+}
+.aside1 p{
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.image img{
+    width: 100%;
+}
+
+.aside2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.aside2 p{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.aside2 img{
+    height: 18rem;
+    width: 18rem;
+}
+
+
+@media (min-width: 905px){
+    .aside-parte{
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .aside1{
+        display: grid;
+        
+    }
+ 
+
+    .aside2{
+        display: grid;
+        justify-content: flex-end;
+        
+    }
+
+    .aside2 img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .aside1 img{
+        height: 30rem;
+        width: 30rem;
+    }
 }
