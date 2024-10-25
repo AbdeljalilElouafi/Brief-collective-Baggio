@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 10px;
     
 }
 nav{
@@ -532,7 +533,9 @@ nav .logo{
 
 /*section car*/
 
-
+.aside-parte{
+    margin-top: 10rem;
+}
 
 .aside1{
     display: flex;

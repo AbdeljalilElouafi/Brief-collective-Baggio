@@ -309,7 +309,6 @@
   .price-tags {
     width: 90%;
     height: 80rem;
-    background-color: antiquewhite;
     display:flex;
     flex-wrap:wrap;
     gap:4rem;
@@ -322,6 +321,7 @@
     transform:translate(50rem,0rem);
     padding: 1rem ,3rem;
     height:4rem;
+    
   }
   .price-card1{
     margin-left: 15rem;
@@ -381,10 +381,12 @@
   
   .price-text p{
     transform:translate(1rem,10rem);
+    color: white;
   }
   
   .price-text h3{
     transform:translate(1rem,2rem);
+    color: white;
   }
   
 
